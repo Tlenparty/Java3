@@ -2,13 +2,13 @@ package lesson1.tasks1_2;
 
 public class StorageGeneric<E> implements IStorage<E> {
 
+
     private E[] arr;
     private int currentSize; // Ограничение массива
 
     public StorageGeneric(int size) {
         this.arr = (E[]) new Object[size];  // Не можем создать массив парметризированного типа <E>
     }
-
 
     @Override
     public void add(E value) {
@@ -65,6 +65,7 @@ public class StorageGeneric<E> implements IStorage<E> {
 
     }
 
+
     @Override
     public int getCurrentSize() {
         return 0;
@@ -77,6 +78,4 @@ public class StorageGeneric<E> implements IStorage<E> {
         arr[j] = temp;
 
     }
-
-
 }

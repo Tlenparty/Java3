@@ -8,6 +8,7 @@ public class Task1_2 {
      */
 
     public static void main(String[] args) {
+
         StorageGeneric <String> strStorage = new StorageGeneric<>(5);
         StorageGeneric <Integer> intStorage = new StorageGeneric<>(5);
 
@@ -20,6 +21,7 @@ public class Task1_2 {
         strStorage.display();
 
 
+
         intStorage.add(1);
         intStorage.add(2);
         intStorage.add(3);
@@ -27,6 +29,7 @@ public class Task1_2 {
         intStorage.display();
         intStorage.exchange(0,3);
         intStorage.display();
+
 
     }
 }

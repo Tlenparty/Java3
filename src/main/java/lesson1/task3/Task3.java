@@ -3,7 +3,7 @@ package lesson1.task3;
 
 public class Task3 {
     /**
-     *
+
      * * 3. Большая задача:
      *      Есть классы Fruit -> Apple, Orange (больше фруктов не надо);  +
      *      Класс Box, в который можно складывать фрукты. Коробки условно сортируются по типу фрукта, поэтому в одну
@@ -22,9 +22,11 @@ public class Task3 {
 
     public static void main(String[] args) {
 
+
         Box<Apple> appleBox1 = new Box<>();
         Box<Orange> orangeBox = new Box<>();
         Box<Apple> appleBox2 = new Box<>();
+
 
         appleBox1.add(new Apple());
 
@@ -36,6 +38,7 @@ public class Task3 {
         appleBox2.add(new Apple());
         appleBox2.add(new Apple());
         appleBox2.add(new Apple());
+
 
 
 
@@ -54,6 +57,11 @@ public class Task3 {
         appleBox1.display();
         orangeBox.display();
         appleBox2.display();
+
+
+        System.out.println("Вес коробки " + appleBox1.getWeight());
+        System.out.println("Вес коробки " + orangeBox.getWeight());
+        System.out.println("Вес коробки " + appleBox2.getWeight());
 
 
 
