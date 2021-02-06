@@ -56,6 +56,11 @@ public class Task3 {
         appleBox2.display();
 
 
+        System.out.println("Вес коробки " + appleBox1.getWeight());
+        System.out.println("Вес коробки " + orangeBox.getWeight());
+        System.out.println("Вес коробки " + appleBox2.getWeight());
+
+
 
 
     }
