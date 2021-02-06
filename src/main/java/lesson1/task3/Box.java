@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Box<E extends Fruit> {
 
+
     private ArrayList<E> fruitBox;
 
     public Box() {
@@ -36,6 +37,7 @@ public class Box<E extends Fruit> {
         }
         return weightBox;
     }
+
 
 
 

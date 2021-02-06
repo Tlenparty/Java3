@@ -2,7 +2,9 @@ package lesson1.tasks1_2;
 
 public interface IStorage<E>  {
 
+
     void add(E value);
+
 
     void add(E value, int index);
 
@@ -10,13 +12,14 @@ public interface IStorage<E>  {
 
     E get (int index);
 
+
     boolean find (E value);
 
     void display();
 
     void sort();
 
-    int getCurrentSize();
 
+    int getCurrentSize();
 
 }
