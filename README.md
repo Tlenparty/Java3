@@ -1,18 +1,18 @@
 # Java Generics
 
-Два небольших примера обобщённых типов (generics) в Java.
+Two small examples of generic types in Java.
 
-- **`generics.storage`** — обобщённое хранилище `StorageGeneric<E>` на массиве
-  с интерфейсом `IStorage<E>`: добавление, удаление, поиск, сортировка
-  и обмен двух элементов местами для любого ссылочного типа.
-- **`generics.fruits`** — коробки с фруктами `Box<E extends Fruit>`: в одну коробку
-  кладутся фрукты только одного вида, коробки можно сравнивать по весу
-  (в том числе разных видов) и пересыпать фрукты из одной коробки в другую
-  того же вида.
+- **`generics.storage`**: a generic array-based storage `StorageGeneric<E>`
+  with the `IStorage<E>` interface: adding, removing, searching, sorting
+  and swapping two elements for any reference type.
+- **`generics.fruits`**: fruit boxes `Box<E extends Fruit>`: a box can hold
+  only one kind of fruit, boxes can be compared by weight
+  (including boxes of different kinds), and fruits can be moved from one box to another
+  box of the same kind.
 
-## Запуск
+## Run
 
-Требуется JDK 11+.
+Requires JDK 11+.
 
 ```bash
 javac -encoding UTF-8 -d out $(find src -name '*.java')
