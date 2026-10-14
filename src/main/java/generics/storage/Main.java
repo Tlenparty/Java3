@@ -1,6 +1,6 @@
-package lesson1.tasks1_2;
+package generics.storage;
 
-public class Task1_2 {
+public class Main {
 
     /**
      * 1. Написать метод, который меняет два элемента массива местами (массив может быть любого ссылочного типа);

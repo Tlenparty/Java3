@@ -1,9 +1,9 @@
-package lesson1.task3;
+package generics.fruits;
 
-public class Orange extends Fruit {
+public class Apple extends Fruit {
 
-    private String name = "Апельсин";
-    private float weight = 1.5f;
+    private String name = "Яблоко";
+    private float weight = 1.0f;
 
 
     @Override
@@ -11,10 +11,9 @@ public class Orange extends Fruit {
         return weight;
     }
 
-
     @Override
     public String toString() {
-        return "Orange{" +
+        return "Apple{" +
                 "name='" + name + '\'' +
                 ", weight=" + weight +
                 '}';

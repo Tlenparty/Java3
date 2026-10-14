@@ -1,4 +1,4 @@
-package lesson1.task3;
+package generics.fruits;
 
 import java.util.ArrayList;
 

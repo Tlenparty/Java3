@@ -1,7 +1,7 @@
-package lesson1.task3;
+package generics.fruits;
 
 
-public class Task3 {
+public class Main {
     /**
 
      * * 3. Большая задача:

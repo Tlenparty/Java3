@@ -1,4 +1,4 @@
-package lesson1.tasks1_2;
+package generics.storage;
 
 public class StorageGeneric<E> implements IStorage<E> {
 
